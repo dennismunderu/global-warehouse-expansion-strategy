@@ -1,5 +1,7 @@
  # 🌍 Warehouse Expansion Strategy for a Global Logistics E-commerce
 
+ <img src="visualizations/banner/Project_banner.jpg" alt="Global Logistics Network - Warehouse Expansion Strategy" width="100%"/>
+
  ## Overview
 
  This project evaluates **global shipping and order data** to identify the most strategic regions for **international warehouse expansion**. The core objective is to help a U.S.-based, logistics-driven e-commerce company reduce international shipping costs, improve delivery reliability, and build a scalable fulfillment network aligned with global demand patterns.
