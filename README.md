@@ -1,6 +1,6 @@
  # 🌍 Warehouse Expansion Strategy for a Global Logistics E-commerce
 
- <img src="visualizations/banner/Project_banner.jpg" alt="Global Logistics Network - Warehouse Expansion Strategy" width="100%"/>
+<img src="visualizations/banner/Project_banner.jpg" alt="Global Logistics Network - Warehouse Expansion Strategy" width="100%"/>
 
  ## Overview
 
@@ -70,6 +70,17 @@ All data cleaning and standardization were performed in **Python (pandas)** and 
 ## Key Insights
 
 ### 🌐 High-Volume Shipping Regions
+
+<p align="center">
+  <img 
+    src="visualizations/screenshots/orders per region by order country.JPG" 
+    alt="Global Order Distribution" 
+    width="450"
+  />
+ <br/>
+  <em>Order Distribution per Region</em>
+</p>
+
 - **Europe** leads globally in order volume, placing **four countries in the top ten**.
 - Demand is **stable and recurring**, not seasonal, making fulfillment needs predictable.
 
@@ -78,6 +89,18 @@ All data cleaning and standardization were performed in **Python (pandas)** and 
 ---
 
 ### 💰 Revenue Contribution by Region
+
+<table>
+  <tr>
+    <td><strong>Revenue by Market (Region)</strong></td>
+    <td><strong>Revenue by Country</strong></td>
+  </tr>
+  <tr>
+    <td><img src="visualizations/screenshots/total revenue by market.JPG" alt="Revenue by Market (Region)" width="100%"/></td>
+    <td><img src="visualizations/screenshots/revenue by order country.JPG" alt="Revenue by Country" width="100%"/></td>
+  </tr>
+</table>
+
 - Europe contributes **29.72% of total revenue**, followed closely by **LATAM at 26.58%**.
 - The U.S. remains the single largest revenue-generating country, reflecting its role as the current fulfillment hub.
 - France, Germany, the UK, Italy, Mexico, and Brazil emerge as high-value markets.
@@ -124,6 +147,17 @@ All data cleaning and standardization were performed in **Python (pandas)** and 
 ---
 
 ### 💳 Payment & Operational Insights
+
+<p align="center">
+  <img 
+    src="visualizations/screenshots/payment preferrence by region.JPG" 
+    alt="Payment Preference by Region" 
+    width="450"
+  />
+ <br/>
+  <em>Payment Method Preferrence by Region</em>
+</p>
+
 - Debit is the most commonly used payment method globally.
 - **High payment friction** exists in parts of Africa and Asia, with up to 60% of orders in pending statuses.
 - Northern Europe and Central America show **high order completion rates (>75%)**.
