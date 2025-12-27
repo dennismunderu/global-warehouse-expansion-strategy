@@ -110,9 +110,20 @@ All data cleaning and standardization were performed in **Python (pandas)** and 
 ---
 
 ### ⚖️ Revenue vs. Order Volume Efficiency
+
+<p align="center">
+  <img 
+    src="visualizations/screenshots/rank gap.JPG" 
+    alt="Payment Preference by Region" 
+    width="450"
+  />
+ <br/>
+  <em>Revenue Efficiency by Region: Rank Gap Analysis</em>
+</p>
+
 - High-volume regions generally translate into high revenue.
 - Markets with aligned volume and revenue (rank_gap ≤ 0)—such as the U.S., France, Germany, Mexico, and Brazil—offer the **highest ROI** for infrastructure investment.
-- Some regions show efficiency but lack scale, limiting near-term strategic value.
+- Some regions show efficiency but lack scale (a negative rank_gap), limiting near-term strategic value.
 
 **Implication:** Expansion decisions should prioritize **absolute impact**, not efficiency alone.
 
@@ -131,8 +142,8 @@ All data cleaning and standardization were performed in **Python (pandas)** and 
 
 <table>
   <tr>
-    <td><strong>Revenue by Market (Region)</strong></td>
-    <td><strong>Revenue by Country</strong></td>
+    <td><strong>Consumer Segments</strong></td>
+    <td><strong>Total Revenue and orders per Customer Segment</strong></td>
   </tr>
   <tr>
     <td><img src="visualizations/screenshots/customer segments.JPG" alt="Consumer Segments" width="100%"/></td>
@@ -151,6 +162,17 @@ All data cleaning and standardization were performed in **Python (pandas)** and 
 ---
 
 ### 📅 Seasonal Demand Patterns
+
+<p align="center">
+  <img 
+    src="visualizations/screenshots/average orders per month.JPG" 
+    alt="Global Order Distribution" 
+    width="450"
+  />
+ <br/>
+  <em>Average Orders Per month</em>
+</p>
+
 - Global demand peaks sharply in **November and December**.
 - The rest of the year shows **stable baseline activity**.
 
