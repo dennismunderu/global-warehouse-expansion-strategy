@@ -128,6 +128,18 @@ All data cleaning and standardization were performed in **Python (pandas)** and 
 ---
 
 ### 👥 Customer Segment Behavior
+
+<table>
+  <tr>
+    <td><strong>Revenue by Market (Region)</strong></td>
+    <td><strong>Revenue by Country</strong></td>
+  </tr>
+  <tr>
+    <td><img src="visualizations/screenshots/customer segments.JPG" alt="Consumer Segments" width="100%"/></td>
+    <td><img src="visualizations/screenshots/total revenue and order per customer segment.JPG" alt="Total Revenue and orders per Customer Segment" width="100%"/></td>
+  </tr>
+</table>
+
 - The **Consumer segment** accounts for:
   - ~52% of customers  
   - ~50% of international orders  
